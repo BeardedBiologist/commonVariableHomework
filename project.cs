@@ -15,6 +15,7 @@ Console.WriteLine();
 
 bool isValidInt = int.TryParse(ageText, out int age);
 Console.WriteLine($"The input was valid: {isValidInt}. The number was {age}");
+Console.WriteLine();
 
 Console.Write("Your age in 25 years will be: ");
 Console.WriteLine(age + 25);
@@ -23,6 +24,7 @@ Console.WriteLine();
 Console.Write("Your age 25 years ago was: ");
 Console.WriteLine(age - 25);
 
-Console.WriteLine("----------------------------------");
+Console.WriteLine();
+Console.WriteLine("----------------");
 Console.WriteLine("Press ENTER key to close");
 Console.ReadLine();
