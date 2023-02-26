@@ -22,4 +22,7 @@ Console.WriteLine();
 
 Console.Write("Your age 25 years ago was: ");
 Console.WriteLine(age - 25);
+
+Console.WriteLine("----------------------------------");
+Console.WriteLine("Press ENTER key to close");
 Console.ReadLine();
